@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>pseudo classes</title>
+		<style>
+			
+					<!--
+					like as same nth-child(even)
+					& nth-last-child() doing
+						& nth-child(1,2,3,.....any numb)
+							& nth-child(2n) same even
+							& nth-child(2n+1) same odd
+									-->
+									<!-- nth-of-type()
+									& do nth-last-of-type()
+												-->
+					div.container p:nth-of-type(odd){
+										color:blue;
+										}
+				</style>
+		</head>
+		<body>
+			<div class="container">
+				<div class="box1">
+						<h1>This is Heading </h1>
+						<p>this is box1 paragraph</p>
+						<p>this is box1 paragraph</p>
+						<p>this is box1 paragraph</p>
+						<p>this is box1 paragraph</p>
+					</div>
+					<p>this is container paragraph</p>
+					<p>this is container paragraph</p>
+			<div class="box2">
+					<p>this is box2 paragraph</p>
+					<p>this is box2 paragraph</p>
+					<p>this is box2 paragraph</p>
+				</div>
+			</div>
+		</body>
+		</html>
